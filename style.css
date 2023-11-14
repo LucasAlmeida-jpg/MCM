@@ -429,8 +429,11 @@ footer a:hover {
   width: 340px;
   height: 720px;
   margin-right: 20px;
-  background: #232323;
   border-radius: 20px;
+  border-radius: 31px;
+  background: #e0e0e0;
+  box-shadow: 37px 37px 96px #d0d0d0,
+    -37px -37px 96px #f0f0f0;
 }
 
 .carousel-cell img {
@@ -498,11 +501,13 @@ footer a:hover {
   border: none;
   outline: none;
   cursor: pointer;
-  background: #232323;
+  background: white;
   color: #4D4D4D;
   text-align: left;
   border-radius: 14px;
   transition: background 0.2s;
+  box-shadow: -4px -7px 30px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 .accordion__button::after {
@@ -512,7 +517,8 @@ footer a:hover {
 }
 
 .accordion__button--active {
-  background: #232323;
+  background: white;
+
 }
 
 
@@ -522,7 +528,7 @@ footer a:hover {
   max-height: 0px;
   transition: max-height 0.2s;
   margin-top: -22px;
-  background: #232323;
+  background: white;
   border-radius: 14px;
   margin-bottom: -22px;
   padding-top: 15px;
@@ -601,12 +607,12 @@ footer .image-footer img {
 }
 
 .btn-close {
-  background-color: #4D4D4D;
+  background-color: white;
   border-radius: 50%;
 }
 
 .modal {
-  background-color: #000000;
+  background-color: white;
 }
 
 .modal-container {
@@ -622,7 +628,7 @@ footer .image-footer img {
 .modal-body,
 .modal-footer,
 .modal-content {
-  background-color: #201f1f;
+  background-color: white;
   color: #4D4D4D;
   border: none;
   border-radius: 20px;
@@ -642,7 +648,7 @@ footer .image-footer img {
 }
 
 .form-control {
-  background: #201f1f;
+  background: white;
   border: none;
   color: #4D4D4D;
   font-weight: 600;
@@ -653,7 +659,7 @@ footer .image-footer img {
 .form-control:focus {
   box-shadow: 0 0 0 0;
   outline: 0;
-  background-color: #201f1f;
+  background-color: white;
   color: #4D4D4D;
 }
 
@@ -700,12 +706,12 @@ footer .image-footer img {
 
 
 .modules .col-md-8 {
-  background-color: #363636;
+  background-color: white;
   border-radius: 18px 0px 0px 18px;
 }
 
 .modules .col-md-4 {
-  background-color: #232323;
+  background-color: white;
   border-radius: 0px 18px 18px 0px;
   padding: 30px;
 
