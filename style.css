@@ -178,6 +178,9 @@ footer a:hover {
   object-fit: cover;
   max-height: 600px;
 }
+.card-min-height{
+  min-height: 340px;
+}
 
 .content-sub h2 {
   margin-top: 50px;
