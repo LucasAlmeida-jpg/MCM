@@ -186,6 +186,11 @@ footer a:hover {
   font-family: 'ProductSans-Thin', sans-serif;
 }
 
+.logo-made {
+  font-family: 'ProductSans-Bold', sans-serif;
+
+}
+
 .content h4 {
   color: #4D4D4D;
   font-weight: 700;
