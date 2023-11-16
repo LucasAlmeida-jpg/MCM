@@ -565,11 +565,15 @@ footer a:hover {
   margin-top: -25px;
 }
 
+.separated {
+  display: none;
+}
+
 
 .accordion__button {
   display: block;
-  padding: 25px 25px 25px 30px;
-  border: 1px solid #4D4D4D; /* Adiciona uma bordinha singela */
+  padding: 25px;
+  border: 1px solid #4D4D4D;
   outline: none;
   cursor: pointer;
   background: white;
@@ -586,9 +590,9 @@ footer a:hover {
   transition: max-height 0.2s;
   margin-top: -16px;
   background: white;
-  border: 1px solid #4D4D4D; /* Adiciona uma bordinha singela */
-  border-top: none; /* Remove a borda superior para não duplicar com a borda do botão */ 
-  border-radius: 0 0 14px 14px; /* Adaptação da borda inferior */
+  border: 1px solid #4D4D4D; 
+  border-top: none; 
+  border-radius: 0 0 14px 14px; 
   margin-bottom: -22px;
   padding-top: 15px;
   color: #4D4D4D;
