@@ -3,6 +3,11 @@
   src: url("./fonts/ProductSans-Bold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "ProductSans-Thin";
+  src: url("./fonts/ProductSans-Thin.ttf") format("truetype");
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -178,6 +183,7 @@ footer a:hover {
   margin-top: 50px;
   color: #4D4D4D;
   font-size: 27px;
+  font-family: 'ProductSans-Thin', sans-serif;
 }
 
 .content h4 {
@@ -241,6 +247,7 @@ footer a:hover {
 .list-card {
   list-style: auto;
   font-size: 15px;
+  font-family: 'ProductSans-Thin', sans-serif;
 }
 
 .card {
@@ -269,17 +276,17 @@ footer a:hover {
 }
 
 .card-text {
-  font-weight: 400;
+  font-family: 'ProductSans-Thin', sans-serif;
 }
 
 .card-text-right {
-  font-weight: 400;
+  font-family: 'ProductSans-Thin', sans-serif;
   text-align: right;
 }
 
 
 .card-text-left {
-  font-weight: 400;
+  font-family: 'ProductSans-Thin', sans-serif;
   text-align: left;
 }
 
@@ -337,15 +344,18 @@ footer a:hover {
 .card-body h5 {
   font-size: 1rem;
   color: #A1A1A1;
+  font-family: 'ProductSans-Bold', sans-serif;
+
 }
 
 .card-body h3 {
   font-size: 1.4rem;
-  font-weight: 800;
+  font-family: 'ProductSans-Bold', sans-serif;
 }
 
 .card-body p {
   font-size: 17px;
+  font-family: 'ProductSans-Thin', sans-serif;
 }
 
 .sec-card {
@@ -412,6 +422,7 @@ footer a:hover {
   font-weight: 600;
   margin-bottom: 70px;
   margin-top: 133px;
+  font-family: 'ProductSans-Bold', sans-serif;
 }
 
 .rectangle img {
@@ -452,6 +463,7 @@ footer a:hover {
   color: #4D4D4D;
   font-size: 35px;
   margin-bottom: 40px;
+  font-family: 'ProductSans-Bold', sans-serif;
 }
 
 .information button {
@@ -468,6 +480,7 @@ footer a:hover {
   margin-left: 25px;
   margin-top: 12px;
   color: #4D4D4D;
+  font-family: 'ProductSans-Thin', sans-serif;
 }
 
 .box-info img {
@@ -548,7 +561,7 @@ footer a:hover {
 .accordion__button {
   display: block;
   padding: 25px 25px 25px 30px;
-  border: none;
+  border: 1px solid #4D4D4D; /* Adiciona uma bordinha singela */
   outline: none;
   cursor: pointer;
   background: white;
@@ -556,9 +569,25 @@ footer a:hover {
   text-align: left;
   border-radius: 14px;
   transition: background 0.2s;
-  box-shadow: -4px -7px 30px 15px rgba(0, 0, 0, 0.1);
-
+  font-family: 'ProductSans-Thin', sans-serif;
 }
+
+.accordion__content {
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.2s;
+  margin-top: -16px;
+  background: white;
+  border: 1px solid #4D4D4D; /* Adiciona uma bordinha singela */
+  border-top: none; /* Remove a borda superior para não duplicar com a borda do botão */ 
+  border-radius: 0 0 14px 14px; /* Adaptação da borda inferior */
+  margin-bottom: -22px;
+  padding-top: 15px;
+  color: #4D4D4D;
+  padding-left: 20px;
+  font-family: 'ProductSans-Thin', sans-serif;
+}
+
 
 .accordion__button::after {
   content: '\25be';
@@ -573,24 +602,12 @@ footer a:hover {
 
 
 
-.accordion__content {
-  overflow: hidden;
-  max-height: 0px;
-  transition: max-height 0.2s;
-  margin-top: -22px;
-  background: white;
-  border-radius: 14px;
-  margin-bottom: -22px;
-  padding-top: 15px;
-  color: #4D4D4D;
-  padding-left: 20px;
-  font-weight: 500;
-}
 
 .questionnaire h1 {
   color: #4D4D4D;
-  font-weight: 500;
   font-size: 35px;
+  font-family: 'ProductSans-Bold', sans-serif;
+
 }
 
 .last {
@@ -752,6 +769,7 @@ footer .image-footer img {
   font-size: 35px;
   margin-bottom: 160px;
   margin-top: 120px;
+  font-family: 'ProductSans-Bold', sans-serif;
 }
 
 
@@ -927,6 +945,7 @@ span a {
     font-size: 25px;
     display: flex;
     position: absolute;
+    font-family: 'ProductSans-Bold', sans-serif;
   }
 
   .modules .col-md-4 .info-right li {
@@ -1139,10 +1158,9 @@ span a {
   .questionnaire h1 {
     font-size: 25px;
     margin-top: 0px;
-    ;
+    
 
   }
-
   .modules .broken-text br {
     display: none;
 
@@ -1267,6 +1285,7 @@ span a {
 
   .accordion__button {
     font-size: 14px;
+
   }
 
   .navbar .toggle-button img {
