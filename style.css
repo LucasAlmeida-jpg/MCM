@@ -1412,4 +1412,7 @@ span a {
     padding-top: 0px !important;
   }
 
+  .content h4{
+display: none;  }
+
 }
