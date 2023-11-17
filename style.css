@@ -72,6 +72,7 @@ footer a:hover {
   padding: 8px 30px;
   border-radius: 45px;
   font-weight: 600;
+  border: none !important;
 }
 
 .btn-check:focus+.btn,
@@ -1414,5 +1415,9 @@ span a {
 
   .content h4{
 display: none;  }
+
+.btn-mobile-adjust{
+  margin-top: 11px;
+}
 
 }
