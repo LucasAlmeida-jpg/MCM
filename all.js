@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var elements = document.querySelectorAll(".scroll-animation");
 
         elements.forEach(function (element) {
-            if (isElementInViewport(element, 800)) {
+            if (isElementInViewport(element, 900)) {
                 element.classList.add("visible");
             } else {
                 element.classList.remove("visible");

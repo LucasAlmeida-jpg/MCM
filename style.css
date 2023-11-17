@@ -1434,4 +1434,12 @@ display: none;  }
   margin-top: 11px;
 }
 
+.btn-primary{
+  margin: 0 !important;
+}
+
+.info-left h1{
+  margin-bottom: 23px;
+}
+
 }
