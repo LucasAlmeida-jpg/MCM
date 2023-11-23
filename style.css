@@ -47,11 +47,11 @@ footer a {
   width: 150px;
   height: auto;
   object-fit: cover;
-  filter: brightness(0.5)
+  filter: invert(1)
 }
 
 .logo-footer {
-  filter: brightness(0.5)
+  filter: invert(1);  
 }
 
 .font-adjustment {
