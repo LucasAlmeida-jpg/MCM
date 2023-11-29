@@ -755,7 +755,7 @@ footer .image-footer img {
 }
 
 .ff-form .ff-description p {
-  font-weight: 800 !important;
+  display: none!important;
 
 }
 
