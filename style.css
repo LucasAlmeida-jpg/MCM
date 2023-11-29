@@ -579,8 +579,8 @@ footer a:hover {
   color: #4D4D4D;
   text-align: left;
   border-radius: 14px;
-  /* transition: background 0.2s; */
   font-family: 'ProductSans-Thin', sans-serif;
+  font-weight: 600;
 }
 
 .accordion__content {
@@ -596,7 +596,7 @@ footer a:hover {
   padding-top: 15px;
   color: #4D4D4D;
   padding-left: 20px;
-  font-family: 'ProductSans-Thin', sans-serif;
+  font-weight: 600;
 }
 
 
@@ -713,7 +713,7 @@ footer .image-footer img {
 }
 
 .modal-body img {
-  width: 300px;
+  width: 150px;
   margin-top: -25px;
   margin-bottom: 15px;
   display: block;
