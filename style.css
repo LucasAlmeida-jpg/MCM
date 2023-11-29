@@ -8,14 +8,6 @@
   src: url("./fonts/ProductSans-Thin.ttf") format("truetype");
 }
 
-
-
-.scroll-animation {
-  opacity: 0;
-  transform: translateY(50%);
-  transition: opacity 1s, transform 1s;
-}
-
 /* Adicione esta classe quando estiver visível */
 .scroll-animation.visible {
   opacity: 1;
@@ -31,27 +23,46 @@ body {
   background-color: #FFFFFF;
 }
 
-footer a {
+h1, h2, h3, h4, h5, h6{
+  font-family: 'ProductSans-Bold', sans-serif;
   color: #4D4D4D;
-  text-decoration: none;
+}
 
+p, a{
+  color: #4D4D4D;
+}
+
+p{
+  font-family: 'ProductSans-thin', sans-serif;
+}
+
+a{text-decoration: none;}
+
+.scroll-animation {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: opacity 1s, transform 1s;
+}
+
+main h1 {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 1em;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+main p {
+  font-size: 23px;
 }
 
 .information .adjustment {
   color: #4D4D4D;
   margin-top: -100px;
   margin-bottom: 100px;
-}
-
-.brand-title img {
-  width: 150px;
-  height: auto;
-  object-fit: cover;
-  filter: invert(1)
-}
-
-.logo-footer {
-  filter: invert(1);  
 }
 
 .font-adjustment {
@@ -140,11 +151,6 @@ footer a:hover {
   opacity: 0;
 }
 
-.next-number {
-  color: black;
-  font-size: 18px !important;
-}
-
 .navbar-links li:after {
   display: block;
   content: '';
@@ -174,17 +180,10 @@ footer a:hover {
 .container .navbar {
   align-items: center;
   padding-bottom: 8px;
+  margin: 40px 0;
 
 }
 
-.info-left h1 {
-  color: #4D4D4D;
-  font-family: 'ProductSans-Bold', sans-serif;
-  font-weight: 800;
-  font-size: 58px;
-  line-height: 1em;
-  margin-top: -37px;
-}
 
 .img-right {
   width: 85%;
@@ -200,26 +199,15 @@ footer a:hover {
   min-height: 340px;
 }
 
-.content-sub h2 {
-  margin-top: 50px;
-  color: #4D4D4D;
-  font-size: 23px;
-  font-family: 'ProductSans-Thin', sans-serif;
-}
 
 .logo-made {
   font-family: 'ProductSans-Bold', sans-serif;
 
 }
 
-.content h4 {
-  color: #4D4D4D;
-  font-weight: 700;
-}
-
-.container {
+/* .container {
   margin-top: 40px;
-}
+} */
 
 .arrow-img {
   width: 26.53px;
@@ -272,23 +260,9 @@ footer a:hover {
   font-family: 'ProductSans-Thin', sans-serif;
 }
 
-.card {
-  background: #FFFFFF;
-  border-radius: 16px;
-  border: none;
-  font-size: 22px;
-  font-weight: 600;
-  color: #4D4D4D;
-  margin-bottom: 70px;
-  box-shadow: -4px -7px 30px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-
 .card:hover {
   transform: scale(1.05);
 }
-
 
 .card img {
   width: auto;
@@ -349,41 +323,6 @@ footer a:hover {
   transform: rotate(-89deg);
 }
 
-.card .card-title {
-  color: #FFFFFF;
-  font-weight: 600;
-  font-size: 30px;
-  background-color: #000000;
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  text-align: center;
-  padding-top: 17px;
-  margin-bottom: 10px;
-
-}
-
-.card .card-body {
-  padding: 55px;
-}
-
-.card-body h5 {
-  font-size: 1rem;
-  color: #A1A1A1;
-  font-family: 'ProductSans-Bold', sans-serif;
-
-}
-
-.card-body h3 {
-  font-size: 1.4rem;
-  font-family: 'ProductSans-Bold', sans-serif;
-}
-
-.card-body p {
-  font-size: 17px;
-  font-family: 'ProductSans-Thin', sans-serif;
-}
-
 .sec-card {
   margin-left: -53px;
 }
@@ -442,13 +381,58 @@ footer a:hover {
   display: none;
 }
 
-.program h6 {
+.program{
+  margin-top: 100px;
+}
+
+.program h1 {
+  color: #4D4D4D;
+  margin-bottom: 40px;
+}
+
+.program h3 {
   color: #4D4D4D;
   font-size: 35px;
-  font-weight: 600;
   margin-bottom: 70px;
-  margin-top: 133px;
-  font-family: 'ProductSans-Bold', sans-serif;
+}
+
+.card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  border: none;
+  font-size: 22px;
+  font-weight: 600;
+  color: #4D4D4D;
+  margin-bottom: 70px;
+  box-shadow: -4px -7px 30px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card .card-body {
+  padding: 55px;
+}
+
+.card-body h5 {
+  font-size: 1.2rem;
+}
+
+.card-body h3 {
+  font-size: 1.4rem;
+}
+
+.card-body p {
+  font-size: 17px;
+}
+
+.card .card-title {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 30px;
+  background-color: #000000;
+  border-radius: 50%;
+  text-align: center;
+  padding: 17px;
 }
 
 .rectangle img {
@@ -568,13 +552,6 @@ footer a:hover {
 
 }
 
-
-
-.program h1 {
-  color: #4D4D4D;
-  margin-bottom: 40px;
-}
-
 .avatar h2 {
   font-size: 16px;
   color: #4D4D4D;
@@ -587,18 +564,22 @@ footer a:hover {
   display: none;
 }
 
+.accordion{
+  margin: 40px 0;
+}
 
 .accordion__button {
   display: block;
   padding: 25px;
   border: 1px solid #4D4D4D;
+  border-bottom: solid transparent;
   outline: none;
   cursor: pointer;
   background: white;
   color: #4D4D4D;
   text-align: left;
   border-radius: 14px;
-  transition: background 0.2s;
+  /* transition: background 0.2s; */
   font-family: 'ProductSans-Thin', sans-serif;
 }
 
@@ -652,7 +633,7 @@ footer a:hover {
 footer {
   border-top: 1px solid #0f0f0f;
   padding: 0px 0px 20px 0px;
-  margin: 0;
+  margin: 120px 0 0;
   width: 100%;
   justify-content: space-around;
   display: flex;
@@ -797,9 +778,7 @@ footer .image-footer img {
 .modules .title {
   color: #4D4D4D;
   font-size: 35px;
-  margin-bottom: 160px;
-  margin-top: 120px;
-  font-family: 'ProductSans-Bold', sans-serif;
+  margin: 150px auto 100px;
 }
 
 
@@ -942,7 +921,7 @@ span a {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
   body {
     overflow-x: hidden;
@@ -1044,21 +1023,6 @@ span a {
     padding-bottom: 440px;
   }
 
-  .program .container {
-    padding: 10px;
-  }
-
-  .container p {
-    font-size: 16px;
-  }
-
-  .container h6 {
-    font-size: 25px;
-    display: block;
-    margin-top: -95px;
-    color: #4D4D4D;
-  }
-
   .information h1 {
     font-size: 25px;
     margin-top: -53px;
@@ -1103,14 +1067,16 @@ span a {
     display: none;
   }
 
-  .navbar {
+  .container .navbar {
     background-color: white;
     width: 100vw;
     z-index: 1;
     bottom: 0;
+    left: 0;
     position: fixed;
     align-items: center;
     overflow: hidden;
+    margin: 0;
   }
 
   .navbar-links ul {
@@ -1186,10 +1152,9 @@ span a {
     margin-top: 40px;
   }
 
-  .modules .title,
-  .questionnaire h1 {
+  .modules .title {
     font-size: 25px;
-    margin-top: 0px;
+    margin: 130px 0 50px;
 
 
   }
@@ -1266,10 +1231,6 @@ span a {
     font-size: 16px;
   }
 
-  .card-body {
-    padding: 0;
-  }
-
 
   .navbar .btn {
     margin-right: 15px;
@@ -1296,11 +1257,6 @@ span a {
     top: 9px;
     right: 0px;
     display: block;
-  }
-
-  footer a {
-    color: #4D4D4D;
-    text-decoration: none;
   }
 
   footer {
@@ -1385,7 +1341,7 @@ span a {
   }
 
   .card .card-body {
-    padding: 18px;
+    padding: 40px 20px 20px;
   }
 
   .card .card-body br {
@@ -1445,6 +1401,10 @@ span a {
 
   .info-left h1 {
     margin-bottom: 23px;
+  }
+
+  .questionnaire{
+    margin: 100px 0;
   }
 
 }

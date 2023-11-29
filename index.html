@@ -2,44 +2,57 @@
 <html lang="pt-br">
 
 <head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <!-- <link rel="stylesheet" href="https://storage.googleapis.com/creators-bcp-1/style.css?v1"> -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="https://storage.googleapis.com/creators-bcp-1/favicons/favicon.ico">
-  <script src="https://kit.fontawesome.com/e99973526a.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
-  <meta property="og:image" content="assets/img_comofunciona3" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+      content="Formalize seus contratos de trabalho e garanta seus recebimentos – simples e rápido!">
+  <meta name="keywords" content="HTML, CSS, JavaScript, bootstrap, flickity">
+  <meta name="author" content="Creators.llc">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  
   <title>Creators MCM</title>
+  <link rel="icon" href="./assets/favicon.svg">
 
-
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-58WRXZQ');</script>
-  <!-- End Google Tag Manager -->
 </head>
 
 <body>
-  <div class="container g-0">
+
+  <!-- Google Analytics -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date(); a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-90265209-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-58WRXZQ');
+    </script>
+  <!-- End Google Tag Manager -->
+
+  <div class="container">
     <nav class="navbar" id="main-menu">
       <div class="brand-title">
         <a href="https://creators.llc/" target="_blank"><img
-            src="assets/logo_creators_branco 1.svg" alt="">
+            src="assets/logo_creators.svg" alt="">
           </a>               
       </div>   
       <a href="#" class="toggle-button">
@@ -87,67 +100,46 @@
             </div>
           </div>
         </div>
-      </div>
     </nav>
-  </div>
-  
-  <section class="first-section scroll-animation" id="como-funciona">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6"></div>
-        <div class="col-md-6" style="position: relative">
-          <img class="img-right" src="assets/img_header.jpg" alt="woman sitting">
-        </div>
-      </div>
-    </div>
-    
-    <div class="container g-0">
-      <div class="row g-0">
-        <div class="logo-mobile">
-          <!-- <img src="https://storage.googleapis.com/creators-bcp-1/assets/logo-mobiles.png" alt=""> -->
-        </div>
-        <div class="col-md-6 info-left">
-          <h1>CREATORS <br /> ADS<br /> ACADEMY
-            <!-- <img class="" src="assets/Google Certified Publishing Partner.png" alt="">    -->
-          </h1>
-          <div class="content">
-            <h4>Seu parceiro de monetização <br>
-              Aumente a receita de anúncios <br>
-              do seu site, aplicativo e jogo para celular
-            </h4>
-          </div>
-          <div class="content-sub">
-            <img class="arrow-img" src="https://storage.googleapis.com/creators-bcp-1/assets/arrow.png"
-              alt="arrow Saiba Mais">
-            <h2>
-              O primeiro programa em parceria Google & Creators Plataform para criadores de conteúdo que atuam com
-              monetização
-              no Adsense. Você terá suporte e letramento em diversas áreas relacionadas a criação e estrutura do seu
-              site, para rentabilizar ainda mais o seu espaço na web.
-            </h2>
-          </div>
-          <div>
-            <!-- <button class="btn-second hide-mobile" id="exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Quero participar</button> -->
-            <button type="button" class=" mt-5 btn btn-primary justify-content-flexend button-mobile btn-mobile-adjust"
-              data-bs-toggle="modal" data-bs-target="#exampleModal">Inscrever-se</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="program" id="como-participar">
-    <div class="container">
-      <h6 class="col-md-10 offset-md-1 ">Como o Creators ADS ACADEMY<br>funciona?</h6>
+    <main class="scroll-animation" id="como-funciona">
+      <div class="row">
+        <div class="col-md-6 d-md-none my-5">
+          <img class="img-fluid" src="assets/img_header.jpg" alt="woman sitting">
+        </div>
+        <div class="col-md-6">
+          <h1>CREATORS <br /> ADS<br /> ACADEMY</h1>
+          <h2 class="my-4">Aumente a receita de anúncios <br>
+            do seu site, aplicativo e jogo para celular
+          </h2>
+
+          <p>
+            O primeiro programa em parceria Google & Creators Plataform para criadores de conteúdo que atuam com
+            monetização
+            no Adsense. Você terá suporte e letramento em diversas áreas relacionadas a criação e estrutura do seu
+            site, para rentabilizar ainda mais o seu espaço na web.
+          </p>
+          <button type="button" class="mt-3 btn btn-primary justify-content-flexend button-mobile btn-mobile-adjust"
+          data-bs-toggle="modal" data-bs-target="#exampleModal">Inscrever-se</button>
+        </div>
+        <div class="col-md-6 d-none d-md-block">
+          <img class="img-fluid" src="assets/img_header.jpg" alt="woman sitting">
+        </div>
+      </div>
+    </main>
+
+    <section class="program" id="como-participar">
       <div class="row">
         <div class="col-md-10 offset-md-1">
+          <h3>Como o Creators ADS ACADEMY<br>funciona?</h3>
+
           <div class="card">
-            <div class="row ">
+            <div class="row">
               <div class="col-md-6">
                 <div class="card-body d-flex flex-column justify-content-center h-100 scroll-animation">
                   <div class="d-flex align-items-center">
-                    <h5 class="card-title ">01</h5>
-                    <p class="ms-4 next-number">Conheça o programa que vai <br> impulsionar sua presença digital</p>
+                    <h4 class="card-title">01</h4>
+                    <h5 class="ms-4 next-number">Conheça o programa que vai <br> impulsionar sua presença digital</h5>
                   </div>
                   <p class="card-text">
                     Através de suporte técnico, boas práticas do Google, aulas mensais, análises e atendimento de um
@@ -162,18 +154,14 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-10 offset-md-1">
           <div class="card">
             <div class="row g-0">
               <div class="col-md-6 order-md-2">
                 <div class="card-body d-flex flex-column justify-content-center h-100 scroll-animation">
                   <div class="d-flex align-items-center">
-                    <h5 class="card-title">02</h5>
-                    <p class="ms-4 next-number">Conteúdo para potencializar sua receita com Ads</p>
+                    <h4 class="card-title">02</h4>
+                    <h5 class="ms-4 next-number">Conteúdo para potencializar sua receita com Ads</h5>
                   </div>
                   <p>Os aulas e mentorias acontecerão online, uma vez por mês.
                     Dê uma espiada em todo o conteúdo e suporte que teremos:
@@ -191,22 +179,18 @@
                 </div>
               </div>
               <div class="col-md-6 order-md-1 scroll-animation">
-                <img src="assets/img_comofunciona2.jpg" class="img-fluid mt-4" alt="...">
+                <img src="assets/img_comofunciona2.jpg" class="img-fluid mt-4 mt-md-0" alt="...">
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-10 offset-md-1">
           <div class="card">
             <div class="row g-0">
               <div class="col-md-6">
                 <div class="card-body d-flex flex-column justify-content-center h-100 scroll-animation">
                   <div class="d-flex align-items-center">
-                    <h5 class="card-title">03</h5>
-                    <p class="ms-4 next-number">Alcance seu potencial máximo de monetização</p>
+                    <h4 class="card-title">03</h4>
+                    <h5 class="ms-4 next-number">Alcance seu potencial máximo de monetização</h5>
                   </div>
                   <p class="card-text scroll-animation">
                     Você terá suporte agendado com os nossos especialistas enquanto durar a nossa parceria e em troca a
@@ -224,446 +208,221 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="information scroll-animation" id="como-participar">
-    <div class="container">
-      <h1 class="col-md-10 offset-md-1 title">Como participar do<br> ADS ACADEMY</h1>
-      <div class="box-info col-md-10 offset-md-1">
-        <img src="assets/losango.svg" alt="">
-        <p>Possuir um site ativo e com publicações regulares;</p>
-      </div>
+    <section class="information scroll-animation" id="como-participar">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 mt-4">
+          <h3 class="title mb-5">Como participar do<br> ADS ACADEMY</h3>
 
-      <div class="box-info col-md-10 offset-md-1">
-        <img src="assets/losango.svg" alt="">
-        <p>Ter a partir de 1000 pageviews mensais em seu site;</p>
-      </div>
+          <div class="box-info">
+            <img src="assets/losango.svg" alt="">
+            <p>Possuir um site ativo e com publicações regulares;</p>
+          </div>
 
-      <div class="box-info col-md-10 offset-md-1">
-        <img src="assets/losango.svg" alt="">
-        <p>Ter disponibilidade para participar das aulas entre fevereiro e julho de 2024;</p>
-      </div>
-
-      <div class="box-info col-md-10 offset-md-1">
-        <img src="assets/losango.svg" alt="">
-        <p>
-          Inscrever-se de 01 de dezembro de 2023 a 31 de janeiro de 2024 <a href="#" data-bs-toggle="modal"
-            data-bs-target="#exampleModal">neste link</a>
-        </p>
-      </div>
-    </div>
-  </section>
-  <!-- <div class="container carousel">
-    <div class="col-md-10 offset-md-1">
-      <h1>Aprenda com especialistas em monetização</h1>
-    </div>
-  </div>
-  <div class="container-fluid carrousel" id="mentor" style="overflow: hidden">
-    <div class="carousel col" data-flickity='{ "groupCells": true }' style="overflow: visible">
-
-      <div class="carousel-cell">
-        <img src="https://storage.googleapis.com/creators-bcp-1/assets/profile/SpartakusSantiago.jpg" alt="">
-        <div class="info-first-card">
-
-          <div class="card-carousel-info">
-            <h4>Spartakus Santiago
-              <span>
-                <a href="https://www.instagram.com/spartakus/" target="_blank"><i
-                    class="fa-brands fa-instagram"></i></a>
-              </span>
-              <span>
-                <a href="https://spartakus.com.br/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-              </span>
-            </h4>
+          <div class="box-info">
+            <img src="assets/losango.svg" alt="">
+            <p>Ter a partir de 1000 pageviews mensais em seu site;</p>
+          </div>
+    
+          <div class="box-info">
+            <img src="assets/losango.svg" alt="">
+            <p>Ter disponibilidade para participar das aulas entre fevereiro e julho de 2024;</p>
+          </div>
+    
+          <div class="box-info">
+            <img src="assets/losango.svg" alt="">
+            <p>
+              Inscrever-se de 01 de dezembro de 2023 a 31 de janeiro de 2024 <a href="#" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">neste link</a>
+            </p>
           </div>
         </div>
-        <hr>
-        <div class="info-second-card">
-          <p>Um dos maiores criadores de conteúdos negros do país, Spartakus foi nascido e criado na Bahia e mudou-se
-            para o Rio de Janeiro para se formar em publicidade na Universidade Federal Fluminense. Trabalhou por 3 anos
-            na TV Globo, fez estágio na Ogilvy & Mather em Nova York e se formou em Direção de Arte pela Miami Ad
-            School/NY. Deixou tudo para trás para se tornar um criador de conteúdo. Agora, faz parte da MTV Brasil e
-            ecebeu inúmeros prêmios como Miami Ad School Top Dog - Best of Show, Shorty Awards - Audience Honor, entre
-            outros.
-          </p>
-        </div>
       </div>
+    </section>
 
-      <div class="carousel-cell">
-        <img src="https://storage.googleapis.com/creators-bcp-1/assets/profile/joicy.jpg" alt="">
-        <div class="info-first-card">
-          <div class="card-carousel-info">
-            <h4>Joicy Eleiny
-              <span class="my-5">
-                <a href="https://www.instagram.com/soutipo4/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-              </span>
-              <span>
-                <a href="https://tipo4.com.br/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-              </span>
-            </h4>
-          </div>
-        </div>
-        <hr>
-        <div class="info-second-card">
-          <p>Criadora de conteúdo por mais de 6 anos, Joy é também consultora de moda especializada em cor e compartilha
-            suas experiências e informação sobre beleza, moda e sua identidade nos seus canais online. Em seu perfil
-            @soutipo4, ela inspira e guia outras mulheres negras, criando um espaço seguro para a troca existente entre
-            a criadora de conteúdo e a comunidade. Embaixadora da Amaro e da Bio Extratus, seu conteúdo é focado em
-            cabelo crespo, moda e beleza de uma forma descontraída e leve.</p>
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <img src="https://storage.googleapis.com/creators-bcp-1/assets/profile/fabiano.jpg" alt="">
-        <div class="info-first-card">
-          <div class="card-carousel-info">
-            <h4>Fabiano Gomes
-              <span class="my-5">
-                <a href="https://www.instagram.com/ocarafashion/" target="_blank"><i
-                    class="fa-brands fa-instagram"></i></a>
-              </span>
-              <span>
-                <a href="https://www.ocarafashion.com/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-              </span>
-            </h4>
-          </div>
-        </div>
-        <hr>
-        <div class="info-second-card">
-          <p>Fabiano Gomes é editor-responsável do portal O Cara Fashion. Apaixonado por moda, ele dedica sua criação de
-            conteúdo para comunicar tendências e faz isso muito bem. Fashionista, blogger, colunista de moda, futuro
-            estilista e apaixonado pela vida. Sua formação é biblioteconomia. Em seu blog, compartilha posts diários
-            sobre lançamentos de moda masculina, estética do homem negro, autoestima e muito mais. Além de escrever,
-            compartilha seu dia a dia no Instagram, criando conexão com seus leitores.</p>
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <img src="https://storage.googleapis.com/creators-bcp-1/assets/profile/ale.jpg" alt="">
-        <div class="info-first-card">
-
-          <div class="card-carousel-info">
-            <h4>Alê Garcia
-              <span class="my-5">
-                <a href="https://www.instagram.com/alegarcia/" target="_blank"><i
-                    class="fa-brands fa-instagram"></i></a>
-              </span>
-              <span>
-                <a href="https://www.alegarcia.com/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-              </span>
-            </h4>
-          </div>
-        </div>
-        <hr>
-        <div class="info-second-card">
-          <p>Alê Garcia é um dos 20 Creators Negros Mais Inovadores do País, segundo a Forbes. Escritor, criador de
-            conteúdo, palestrante e publicitário. Finalista do Prêmio Jabuti, ganhador do Prêmio Fundação Biblioteca
-            Nacional, Senior Creative no Nubank, apresentador no Omelete e criador do "Negro da Semana", um podcast e
-            canal no YouTube desde 2019. Já foi selecionado para o YouPix Creators Boost. Além disso, é criador do hub
-            de cultura negra CASABLACK. Nos seus perfis, fala sobre seu trabalho, sobre raça e cultura.
-          </p>
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <img src="https://storage.googleapis.com/creators-bcp-1/assets/profile/julia.jpg" alt="">
-        <div class="info-first-card">
-          <div class="card-carousel-info">
-            <h4>Julia Reis
-              <span class="my-5">
-                <a href="https://www.instagram.com/ajulia.reis/" target="_blank"><i
-                    class="fa-brands fa-instagram"></i></a>
-              </span>
-              <span>
-                <a href="https://brasamag.com.br/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-              </span>
-            </h4>
-          </div>
-        </div>
-        <hr>
-        <div class="info-second-card">
-          <p>Julia Reis é CEO e fundadora do Brasa Mag, é jornalista cultural com trabalhos na Vice Brasil, Kondzilla,
-            Agência Mural de Jornalismo das Periferias e Rede Globo. Além disso, tem experiência como host,
-            apresentadora de podcast e videomaker. Atualmente é criadora de conteúdo no "Rap, Falando" e community
-            manager no "Conversa com Bial". Trabalha como DJ, modelo e faz corres de produção. Tudo isso sem abandonar
-            suas redes, entregando uma vivência real do que é ser ela e do que é estar no corre dos trabalhos.</p>
-        </div>
-      </div>
-      <div class="carousel-cell">
-        <img src="https://storage.googleapis.com/creators-bcp-1/assets/profile/aline.jpg" alt="">
-        <div class="info-first-card">
-          <div class="card-carousel-info">
-            <h4>Aline Guedes
-              <span class="my-5">
-                <a href="https://www.instagram.com/chefalineguedes/" target="_blank"><i
-                    class="fa-brands fa-instagram"></i></a>
-              </span>
-              <span>
-                <a href="https://mundonegro.inf.br/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-              </span>
-            </h4>
-          </div>
-        </div>
-        <hr>
-        <div class="info-second-card">
-          <p>Aline Guedes é chef culinária e compartilha seus conhecimentos sobre comida, vinhos, cultura quilombola,
-            sua vida em São Paulo e bons drinks no seu perfil @chefalineguedes. Ela participou do reality show Mestre do
-            Sabor, onde mostrou todo seu talento e potencial culinário. Ela possui Mestrado em Hotelaria e Investigação
-            Alimentar nos quilombos no estado de São Paulo. Produz conteúdo para seu perfil pessoal e também para as
-            plataformas @vinhosunica e @sitemundonegro.</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <section class="modules" id="programacao">
-    <div class="container ">
-      <h1 class="col-md-10 offset-md-1 title broken-text">Como nossa academia ajuda você a aumentar seus
-        pageviews e consequentemente seus resultados de ganhos no Adsense:
-      </h1>
-      <div class="row scroll-animation">
+    <section class="modules" id="programacao">
+      <div class="row">
         <div class="col-md-10 offset-md-1">
-          <div class="card card-min-height">
-            <div class="row">
-              <div class="col-md-12 p-5">
-                <div class="card-body d-flex flex-column justify-content-center h-100">
-                  <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo1.png" alt="">
-                  <h5>Aula 01</h5>
-                  <h3>SEO E ANÁLISE DE PAGESPEED</h3>
-                  <p>Nesta aula te contaremos como <a href="https://pagespeed.web.dev/" target="_blank">melhorar seu
-                      pagespeed</a> e
-                    subir o ranking da sua página nas buscas orgânicas do Google, através de análises, adequações de
-                    imagens, títulos, entre outros. </p>
-                </div>
-              </div>
+          <h3 class="title broken-text">Como nossa academia ajuda você a aumentar seus
+            pageviews e consequentemente seus resultados de ganhos no Adsense:
+          </h3>
+
+          <div class="card card-min-height scroll-animation">
+            <div class="card-body d-flex flex-column justify-content-center h-100">
+              <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo1.png" alt="">
+              <h5>Aula 01</h5>
+              <h3>SEO E ANÁLISE DE PAGESPEED</h3>
+              <p>Nesta aula te contaremos como <a href="https://pagespeed.web.dev/" target="_blank">melhorar seu
+                  pagespeed</a> e
+                subir o ranking da sua página nas buscas orgânicas do Google, através de análises, adequações de
+                imagens, títulos, entre outros. </p>
+            </div>
+          </div>
+
+          <div class="card card-min-height scroll-animation">
+            <div class="card-body d-flex flex-column justify-content-center h-100">
+              <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo2.png" alt="">
+              <h5>Aula 02</h5>
+              <h3>COMO MELHORAR E CRIAR EDITORIAS IMPACTANTES</h3>
+              <p>Quais as editorias do seu site tem mais acesso? Como replicar esse modelo para todos os estilos e
+                tipos de editoria que você já faz? Como adicionar novas temáticas dentro do universo do seu
+                conteúdo? Através de referências e provocações, vamos trazer diversificação para as suas editorias,
+                além de networking entre os participantes para estimular collabs e parcerias.
+              </p>
+            </div>
+          </div>
+
+          <div class="card card-min-height scroll-animation">
+            <div class="card-body d-flex flex-column justify-content-center h-100">
+              <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo3.png" alt="">
+              <h5>Aula 03</h5>
+              <h3>PRINCÍPIOS E ADEQUAÇÕES PARA A UX DO SEU SITE</h3>
+              <p>O seu site tem uma navegação amigável para o seu usuário, mobile e web? Por onde seus leitores te
+                encontram? Nosso objetivo nesta aula é fazer com que seus leitores consumam as informações e seus
+                conteúdos por mais tempo.
+              </p>
+            </div>
+          </div>
+
+          <div class="card card-min-height scroll-animation">
+            <div class="card-body d-flex flex-column justify-content-center h-100">
+              <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo1.png" alt="">
+              <h5>Aula 04</h5>
+              <h3>ANALYTICS</h3>
+              <p>Você provavelmente já tem os acessos de analytics instalados no seu site, mas o que fazer com todos
+                esses dados que a ferramenta oferece? Quais as análises e insights podemos ter a partir de uma busca
+                aprofundada pelo o que a sua audiência consome no seu site?
+              </p>
+            </div>
+          </div>
+
+          <div class="card card-min-height scroll-animation">
+            <div class="card-body d-flex flex-column justify-content-center h-100">
+              <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo3.png" alt="">
+              <h5>Aula 05</h5>
+              <h3>ANÁLISE DE TENDÊNCIAS PARA A CRIAÇÃO DE CONTEÚDO
+              </h3>
+              <p>Como analisar e aterisar as principais tendências das outras redes e também da internet em geral
+                para conteúdos para o seu site? Como eles podem permanecer relevantes por um período mais longo que
+                só uma trend?
+              </p>
+            </div>
+          </div>
+
+          <div class="card card-min-height scroll-animation">
+            <div class="card-body d-flex flex-column justify-content-center h-100">
+              <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo2.png" alt="">
+              <h5>Aula 06</h5>
+              <h3>TÉCNICAS DE STORYTELLING PARA CADA REDE, COMO MAXIMIZAR SUAS PAUTAS</h3>
+              <p>Os criadores de conteúdo utilizam as mais diversas redes (quando não, todas) para criação de pautas
+                e editorias cativantes para a sua audiência. Como aproveitar os assuntos para maximizar entre todas
+                elas e o seu site, de acordo com as características de cada uma?
+              </p>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="row scroll-animation">
-        <div class="col-md-10 offset-md-1">
-          <div class="card card-min-height">
-            <div class="row ">
-              <div class="col-md-12 p-5">
-                <div class="card-body d-flex flex-column justify-content-center h-100">
-                  <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo2.png" alt="">
-                  <h5>Aula 02</h5>
-                  <h3>COMO MELHORAR E CRIAR EDITORIAS IMPACTANTES</h3>
-                  <p>Quais as editorias do seu site tem mais acesso? Como replicar esse modelo para todos os estilos e
-                    tipos de editoria que você já faz? Como adicionar novas temáticas dentro do universo do seu
-                    conteúdo? Através de referências e provocações, vamos trazer diversificação para as suas editorias,
-                    além de networking entre os participantes para estimular collabs e parcerias.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row scroll-animation">
-        <div class="col-md-10 offset-md-1">
-          <div class="card card-min-height">
-            <div class="row ">
-              <div class="col-md-12 p-5">
-                <div class="card-body d-flex flex-column justify-content-center h-100">
-                  <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo3.png" alt="">
-                  <h5>Aula 03</h5>
-                  <h3>PRINCÍPIOS E ADEQUAÇÕES PARA A UX DO SEU SITE</h3>
-                  <p>O seu site tem uma navegação amigável para o seu usuário, mobile e web? Por onde seus leitores te
-                    encontram? Nosso objetivo nesta aula é fazer com que seus leitores consumam as informações e seus
-                    conteúdos por mais tempo.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row scroll-animation">
-        <div class="col-md-10 offset-md-1">
-          <div class="card card-min-height">
-            <div class="row ">
-              <div class="col-md-12 p-5">
-                <div class="card-body d-flex flex-column justify-content-center h-100">
-                  <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo1.png" alt="">
-                  <h5>Aula 04</h5>
-                  <h3>ANALYTICS</h3>
-                  <p>Você provavelmente já tem os acessos de analytics instalados no seu site, mas o que fazer com todos
-                    esses dados que a ferramenta oferece? Quais as análises e insights podemos ter a partir de uma busca
-                    aprofundada pelo o que a sua audiência consome no seu site?
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row scroll-animation">
-        <div class="col-md-10 offset-md-1">
-          <div class="card card-min-height">
-            <div class="row ">
-              <div class="col-md-12 p-5">
-                <div class="card-body d-flex flex-column justify-content-center h-100">
-                  <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo3.png" alt="">
-                  <h5>Aula 05</h5>
-                  <h3>ANÁLISE DE TENDÊNCIAS PARA A CRIAÇÃO DE CONTEÚDO
-                  </h3>
-                  <p>Como analisar e aterisar as principais tendências das outras redes e também da internet em geral
-                    para conteúdos para o seu site? Como eles podem permanecer relevantes por um período mais longo que
-                    só uma trend?
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row scroll-animation">
-        <div class="col-md-10 offset-md-1">
-          <div class="card card-min-height">
-            <div class="row ">
-              <div class="col-md-12 p-5">
-                <div class="card-body d-flex flex-column justify-content-center h-100">
-                  <img src="https://storage.googleapis.com/creators-bcp-1/assets/modulo/modulo2.png" alt="">
-                  <h5>Aula 06</h5>
-                  <h3>TÉCNICAS DE STORYTELLING PARA CADA REDE, COMO MAXIMIZAR SUAS PAUTAS</h3>
-                  <p>Os criadores de conteúdo utilizam as mais diversas redes (quando não, todas) para criação de pautas
-                    e editorias cativantes para a sua audiência. Como aproveitar os assuntos para maximizar entre todas
-                    elas e o seu site, de acordo com as características de cada uma?
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
         <div class="submit-button">
           <button type="button" class="btn">Inscrições abertas</button>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-
-  <div class="container questionnaire scroll-animation" id="FAQ">
-    <h1 class="col-md-10 offset-md-1">Ainda com dúvidas?<br>
-      A gente responde</h1>
-
-    <div class="accordion col-md-10 offset-md-1">
-      <button type="button" class="accordion__button container ">Quais são os suportes que eu vou ter?
-      </button>
-      <div class="accordion__content container">
-        <hr class="separated">
-        <p>Suporte de especialista em mídia programática, Aulas mensais sobre editoria, design, UX, entre outros, com
-          profissionais reconhecidos do mercado. <br>
-          Aulas mensais sobre editoria, design, UX, entre outros, com profissionais reconhecidos do mercado.
-          Analista de SEO, analista de Google Analytics, programador front-end dedicados a quem está com a gente nesse
-          programa, através de horários agendados.
-        </p>
-      </div>
-    </div>
-
-    <div class="accordion col-md-10 offset-md-1">
-      <button type="button" class="accordion__button container">Faixas de monetização e pageviews
-      </button>
-      <div class="accordion__content container">
-        <hr class="separated">
-        <p>Nosso objetivo é que você aumente seus pageviews de forma acelerada. Seus pagamentos serão mensais e em
-          dólares. Como parceiros certificados do Google nós retemos um percentual da sua monetização acordo com seus
-          pageviews: <br>
-          de 1.000 a 50.000 pageviews mensais - 40% do faturamento em Ads. <br>
-          50.000 a 500.000 pageviews mensais - 30% do faturamento em Ads.<br>
-          acima de 500.000 pageviews mensais - 20% do faturamento em Ads.
-        </p>
-      </div>
-    </div>
-
-
-    <div class="accordion col-md-10 offset-md-1">
-      <button type="button" class="accordion__button container">Benefícios do programa
-      </button>
-      <div class="accordion__content container">
-        <hr class="separated">
-        <p>
-          Atendimento técnico e financeiro dedicado no Brasil.
-          Fazer parte de uma comunidade de publishers relevantes em seus nichos          
-        </p>
-      </div>
-    </div>
-
-    <div class="accordion col-md-10 offset-md-1">
-      <button type="button" class="accordion__button container">Equipe / Office Hours
-      </button>
-      <div class="accordion__content container">
-        <hr class="separated">
-        <p>
-          Suporte com especialistas em GA, SEO, programação, jornalismo entre outros.
-        </p>
-      </div>
-    </div>
-
-    <div class="accordion col-md-10 offset-md-1">
-      <button type="button" class="accordion__button container">Como faço para fazer parte da Ads Academy?</button>
-      <div class="accordion__content container">
-        <hr class="separated">
-        <p>
-          Basta se inscrever  <a href="#" data-bs-toggle="modal"
-          data-bs-target="#exampleModal">neste link</a> e aguardar nosso time de comunidade entrar em contato.        </p>
-      </div>
-    </div>
-
-
-
-
-
-
-
-
-
-    <div class="container last mb-3">
-      <!-- <h1 class="col-md-10 offset-md-1">Faça parte dos 100 criadores <br> negros mentorados pelo Google</h1>
+    <section class="questionnaire scroll-animation" id="FAQ">
       <div class="col-md-10 offset-md-1">
-        <div>
-          <button class="btn-second" id="exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">Inscreva-se agora</button>
-          <button class="btn-second">Inscrições abertas</button>
+        <h3>Ainda com dúvidas?<br> A gente responde</h3>
+
+        <div class="accordion">
+          <button type="button" class="accordion__button container ">Quais são os suportes que eu vou ter?
+          </button>
+          <div class="accordion__content container">
+            <hr class="separated">
+            <p>Suporte de especialista em mídia programática, Aulas mensais sobre editoria, design, UX, entre outros, com
+              profissionais reconhecidos do mercado. <br>
+              Aulas mensais sobre editoria, design, UX, entre outros, com profissionais reconhecidos do mercado.
+              Analista de SEO, analista de Google Analytics, programador front-end dedicados a quem está com a gente nesse
+              programa, através de horários agendados.
+            </p>
+          </div>
         </div>
-      </div> -->
-    </div>
-  </div>
+    
+        <div class="accordion">
+          <button type="button" class="accordion__button container">Faixas de monetização e pageviews
+          </button>
+          <div class="accordion__content container">
+            <hr class="separated">
+            <p>Nosso objetivo é que você aumente seus pageviews de forma acelerada. Seus pagamentos serão mensais e em
+              dólares. Como parceiros certificados do Google nós retemos um percentual da sua monetização acordo com seus
+              pageviews: <br>
+              de 1.000 a 50.000 pageviews mensais - 40% do faturamento em Ads. <br>
+              50.000 a 500.000 pageviews mensais - 30% do faturamento em Ads.<br>
+              acima de 500.000 pageviews mensais - 20% do faturamento em Ads.
+            </p>
+          </div>
+        </div>
+    
+        <div class="accordion">
+          <button type="button" class="accordion__button container">Benefícios do programa
+          </button>
+          <div class="accordion__content container">
+            <hr class="separated">
+            <p>
+              Atendimento técnico e financeiro dedicado no Brasil.
+              Fazer parte de uma comunidade de publishers relevantes em seus nichos          
+            </p>
+          </div>
+        </div>
+    
+        <div class="accordion">
+          <button type="button" class="accordion__button container">Equipe / Office Hours
+          </button>
+          <div class="accordion__content container">
+            <hr class="separated">
+            <p>
+              Suporte com especialistas em GA, SEO, programação, jornalismo entre outros.
+            </p>
+          </div>
+        </div>
+    
+        <div class="accordion">
+          <button type="button" class="accordion__button container">Como faço para fazer parte da Ads Academy?</button>
+          <div class="accordion__content container">
+            <hr class="separated">
+            <p>
+              Basta se inscrever  <a href="#" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">neste link</a> e aguardar nosso time de comunidade entrar em contato.        </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
   </div>
 
   <footer>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
+      <div class="row mt-5 justify-content-between">
+        <div class="col-lg-2">
           <h1 class="ps-2 logo-made">ADS <br> ACADEMY <br class="d-none d-lg-block"></h1>
           <img class="" src="assets/Google Certified Publishing Partner.png" alt="">
         </div>
-        <div class="col-lg-6 d-flex align-items-end d-flex flex-column">
+        <div class="col-lg-6 d-flex align-items-end flex-column">
           <a href="https://creators.llc/" target="_blank"><img class=" d-none d-lg-block mb-3 logo-footer"
-              src="assets/logo_creators_branco 1.svg"
+              src="assets/logo_creators.svg"
               alt="imagem logo Creators footer"></a>
 
-          <ul class="d-block p-0 ps-2">
+          <ul class="d-block p-0 ps-2 text-lg-end mt-4 mt-lg-0">
             <li class="d-inline-block me-2">
               <a class="" href="#como-funciona">Como funciona </a>
             </li>
             <li class="d-inline-block me-2">
               <a class="" href="#como-participar">Como participar </a>
             </li>
-            <!-- <li class="d-inline-block me-2">
-              <a class="" href="#mentor">Mentores </a>
-            </li> -->
             <li class="d-inline-block me-2">
               <a class="" href="#programacao">Programação </a>
             </li>
             <li class="d-inline-block me-2">
               <a class="" href="#FAQ">FAQ</a>
-            </li> <br>
+            </li>
             <li class="d-inline-block me-2 talk">
               <a href="mailto:hello@creators.llc" target="_blank">Fale conosco | hello@creators.llc</a>
             </li>
@@ -673,15 +432,9 @@
     </div>
   </footer>
 
+  <script async defer src="https://formfacade.com/include/113610987804806276114/form/1FAIpQLSdhSdLRDFbQfam1S0jTR2l3XSH47UHQQjuViC5Cu9WObdsqYw/classic.js?div=ff-compose"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   <script src="all.js"></script>
-  <script async defer
-    src="https://formfacade.com/include/113610987804806276114/form/1FAIpQLSdhSdLRDFbQfam1S0jTR2l3XSH47UHQQjuViC5Cu9WObdsqYw/classic.js?div=ff-compose"></script>
-
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58WRXZQ" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
 </body>
 
 </html>
