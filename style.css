@@ -56,7 +56,7 @@ main h2 {
 }
 
 main p {
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .information .adjustment {
@@ -151,6 +151,10 @@ footer a:hover {
   opacity: 0;
 }
 
+.ff-layout-default{
+  padding: 15px 0 !important;
+}
+
 .navbar-links li:after {
   display: block;
   content: '';
@@ -180,7 +184,7 @@ footer a:hover {
 .container .navbar {
   align-items: center;
   padding-bottom: 8px;
-  margin: 40px 0;
+  margin: 20px 0 40px;
 
 }
 
@@ -390,7 +394,7 @@ footer a:hover {
   margin-bottom: 40px;
 }
 
-.program h3 {
+.program h3, .services h3, .teachers h3 {
   color: #4D4D4D;
   font-size: 35px;
   margin-bottom: 70px;
@@ -433,6 +437,7 @@ footer a:hover {
   border-radius: 50%;
   text-align: center;
   padding: 17px;
+  width: 71px;
 }
 
 .rectangle img {
@@ -500,13 +505,12 @@ footer a:hover {
 
 .carousel-cell {
   width: 340px;
-  height: 720px;
+  height: 520px;
   margin-right: 20px;
   border-radius: 20px;
   border-radius: 31px;
-  background: #e0e0e0;
-  box-shadow: 37px 37px 96px #d0d0d0,
-    -37px -37px 96px #f0f0f0;
+  background: #fff;
+  box-shadow: -4px -7px 30px 15px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-cell img {
@@ -522,7 +526,7 @@ footer a:hover {
   font-size: 18px;
   margin-top: 14px;
   padding-bottom: 13px;
-  border-bottom: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(198, 194, 194);
 }
 
 .carousel-cell a {
@@ -536,17 +540,13 @@ footer a:hover {
 
 }
 
-.carousel-cell a:hover {
-  color: #aea3a3;
-}
-
 
 .carousel-cell p {
-  color: rgb(198, 194, 194);
+  color: #4D4D4D;
   text-align: center;
-  padding: 20px;
-  margin-top: -40px;
-  font-size: 14px;
+  padding: 10px 20px 20px;
+  /* margin-top: -40px; */
+  font-size: 16px;
   text-align: start;
   font-weight: 500;
 
@@ -823,7 +823,7 @@ footer .image-footer img {
 }
 
 .first-part .title {
-  color: #4D4D4D;
+  color: #E3E3E3;
   font-size: 35px;
   margin-bottom: 24px;
 }
@@ -831,7 +831,7 @@ footer .image-footer img {
 .first-part p,
 span a {
   font-size: 20px;
-  color: #4D4D4D;
+  color: #E3E3E3;
   font-weight: 400;
   margin-bottom: 24px;
 }
@@ -919,6 +919,14 @@ span a {
   font-size: 13px;
   text-align: right;
 
+}
+
+.services .card .card-body{
+  padding: 50px 20px;
+}
+
+.teachers{
+  margin-top: 70px;
 }
 
 @media screen and (max-width: 768px) {
