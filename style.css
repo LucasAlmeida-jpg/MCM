@@ -59,6 +59,10 @@ main p {
   font-size: 20px;
 }
 
+main br{
+  display: none;
+}
+
 .information .adjustment {
   color: #4D4D4D;
   margin-top: -100px;
@@ -1054,8 +1058,6 @@ span a {
     padding: 25px;
   }
 
-
-
   .carousel h1 {
     color: #4D4D4D;
     font-size: 25px;
@@ -1356,7 +1358,6 @@ span a {
     display: none;
   }
 
-
   .show a {
     color: white !important;
     text-decoration: none;
@@ -1413,6 +1414,10 @@ span a {
 
   .questionnaire{
     margin: 100px 0;
+  }
+
+  .card .card-title{
+    width: fit-content;
   }
 
 }
