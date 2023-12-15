@@ -25,6 +25,7 @@ body {
 
 h1, h2, h3, h4, h5, h6{
   font-family: 'ProductSans-Bold', sans-serif;
+  font-kerning: normal;
   color: #4D4D4D;
 }
 
@@ -34,6 +35,7 @@ p, a{
 
 p{
   font-family: 'ProductSans-thin', sans-serif;
+  font-kerning: normal;
 }
 
 a{text-decoration: none;}
