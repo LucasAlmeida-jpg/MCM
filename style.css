@@ -61,10 +61,6 @@ main p {
   font-size: 20px;
 }
 
-main br{
-  display: none;
-}
-
 .information .adjustment {
   color: #4D4D4D;
   margin-top: -100px;
@@ -1420,6 +1416,10 @@ span a {
 
   .card .card-title{
     width: fit-content;
+  }
+
+  main br{
+    display: none;
   }
 
 }
